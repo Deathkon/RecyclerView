@@ -43,6 +43,10 @@ public class custom_Adapter  extends RecyclerView.Adapter <custom_Adapter.VH>{
             public void onClick(View view) {
                 Intent intent = new Intent(context, ItemDetails.class);
                 context.startActivity(intent);
+                intent.putExtra("image", item.getFilename());
+                intent.putExtra("Name", item.getItemName());
+                intent.putExtra("Price", item.getItemPrice());
+                intent.putExtra("Description", item.getDescr());
                 // Toast.makeText(context, ""+item.getItemName()+"\n"+item.getItemPrice(), Toast.LENGTH_SHORT).show();
             }
         });
