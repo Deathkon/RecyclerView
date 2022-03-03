@@ -41,7 +41,9 @@ public class custom_Adapter  extends RecyclerView.Adapter <custom_Adapter.VH>{
 
             @Override
             public void onClick(View view) {
-                Toast.makeText(context, ""+item.getItemName()+"\n"+item.getItemPrice(), Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(context, ItemDetails.class);
+                context.startActivity(intent);
+                // Toast.makeText(context, ""+item.getItemName()+"\n"+item.getItemPrice(), Toast.LENGTH_SHORT).show();
             }
         });
     }
