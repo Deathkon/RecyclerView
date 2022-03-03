@@ -7,35 +7,35 @@
     android:orientation="vertical"
     tools:context=".ItemDetails">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="basket"
-        android:id="@+id/itemNameD"
-        android:padding="10dp"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:textAlignment="center"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="basket"
+      android:id="@+id/itemNameD"
+      android:padding="10dp"
+      android:textSize="15sp"
+      android:textStyle="bold"
+      android:textAlignment="center"/>
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:scaleType="fitCenter"
-        android:id="@+id/itemImageD"
-        android:src="@drawable/bible"
-        android:layout_height="300dp"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="300"
-        android:id="@+id/itemPriceD"
-        android:padding="10dp"
-        android:textSize="15sp" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/item_description"
-        android:id="@+id/itemDescrD"
-        android:padding="10dp"
-        android:textSize="15sp" />
+  <ImageView
+      android:layout_width="match_parent"
+      android:scaleType="fitCenter"
+      android:id="@+id/itemImageD"
+      android:src="@drawable/apple"
+      android:layout_height="300dp"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="300"
+      android:id="@+id/itemPriceD"
+      android:padding="10dp"
+      android:textSize="15sp" />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Item Description"
+      android:id="@+id/itemDescrD"
+      android:padding="10dp"
+      android:textSize="15sp" />
 
 </LinearLayout>
