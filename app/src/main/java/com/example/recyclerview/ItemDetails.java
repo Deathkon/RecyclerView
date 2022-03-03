@@ -14,6 +14,11 @@ public class ItemDetails extends AppCompatActivity {
         name = findViewbyId(R.id.itemNameD);
         price = findViewbyId(R.id.itemPriceD);
         description = findViewbyId(R.id.itemDescrD);
-        
+        Intent intent = getIntent();
+
+        imageView.setImageResource(intent.getIntExtra("image", 0));
+        name.setText(intent.getStringExtra("Name", 0));
+        price.setText(" "+intent.getFloatExtra("Price", 0));
+        description.setText(intent.getStringExtra("Description", 0));
         }
 }
