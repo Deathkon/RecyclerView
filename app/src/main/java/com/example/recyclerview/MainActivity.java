@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 //
                 break;
             case R.id.mnuLocation:
-
+https://youtu.be/W0xf1MWoQ7Y 
             case R.id.mnuUpload:
                 break;
         }
