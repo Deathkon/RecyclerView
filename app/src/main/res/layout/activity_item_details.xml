@@ -9,6 +9,7 @@
         android:layout_height="wrap_content"
         android:text="basket"
         android:padding="10dp"
+        android:id="@+id/"
         android:textSize="15sp"
         android:textStyle="bold"
         android:textAlignment="center"/>
@@ -16,6 +17,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:scaleType="fitCenter"
+        android:id="@+id/itemDetails"
         android:src="@drawable/apple"
         android:layout_height="300dp"/>
     <TextView
